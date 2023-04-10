@@ -1,0 +1,411 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav {
+    width: 60%;
+}
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+    color: lightgray;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: "Kdam Thmor Pro",sans-serif;
+}
+li:hover {
+    color: #DB222D;
+}
+#Logo {
+    width: 150px;
+    height: auto;
+}
+#Banner { 
+    background-image: url(https://topics.se/wp-content/uploads/2021/12/the-batman-2022-ny.jpeg);
+    width: 100%;
+    height: 600px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+#Trailler-container { 
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.content {
+    width: 60%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trailer{
+    width: 50%;
+}
+#Sinops {
+    width: 50%;
+    display: flex;
+   flex-direction: column ;
+   justify-content: space-between;
+   margin-left: 30px;
+}
+.description {
+    color: #fff;
+    font-size: 19px;
+    font-family: "Kdam Thmor Pro",sans-serif;
+    width: 70%;
+}
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: #DB222D;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+.button:hover {
+    background: #fff;
+    color: black;
+}
+.ator-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Kdam Thmor Pro",sans-serif;
+}
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url(https://media.vanityfair.com/photos/6224ec054471a41eee9742bc/master/w_2560%2Cc_limit/1238860697);
+}
+.banner-2 {
+    background-image: url(https://static1.purebreak.com.br/articles/7/10/45/77/@/446121-taylor-swift-exalta-amiga-zoe-kravitz-em-950x0-3.jpg );
+}
+.banner-3 {
+    background-image: url(https://www.landmarkcinemas.com/media/400455/27d6d612-47e1-41ec-8d84-df51e718f59d.jpg );
+}
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    color: #fff;
+    font-family: "Kdam Thmor Pro",sans-serif;
+}
+.Footer-navigator {
+    display: none;
+}
+.Footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Fotos*/
+.Fotos{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.Fotos-card-container{
+    width: 90%;
+    border-radius: 15px;
+    background-color: rgba(205, 205, 205, 0.15);
+    padding: 20px;
+}
+#h1-Fotos{
+    font-family: "Kdam Thmor Pro",sans-serif;
+    margin-left: 20px;
+    color:lightgray ;
+}
+.fotos-content{
+    width: 95%;
+    padding: 15px;
+}
+.Foto-1 {
+    background-image: url(https://m.media-amazon.com/images/M/MV5BYjVmMGU3ZjAtMDNmMy00ZmE2LWI0ODQtMzc2NDczOTdlZjYyXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg);
+}
+.Foto-2 {
+    background-image: url(https://br.web.img3.acsta.net/r_1920_1080/pictures/22/02/16/11/09/1897155.jpg );
+}
+.Foto-3 {
+    background-image: url(https://br.web.img2.acsta.net/r_1920_1080/pictures/22/02/16/11/09/1869073.jpg );
+}
+.Foto-4 {
+    background-image: url(https://br.web.img3.acsta.net/r_1920_1080/pictures/22/02/16/11/09/1826951.jpg );
+}
+.Foto-5 {
+    background-image: url(https://br.web.img2.acsta.net/r_1920_1080/pictures/22/02/16/11/09/1811350.jpg );
+}
+.Foto-6 {
+    background-image: url(https://br.web.img3.acsta.net/r_1920_1080/pictures/22/01/26/14/15/3654956.jpg );
+}
+.Foto-7 {
+    background-image: url( https://br.web.img3.acsta.net/r_1920_1080/pictures/22/01/11/11/02/5029702.jpg);
+}
+.Foto-8 {
+    background-image: url(https://br.web.img3.acsta.net/r_1920_1080/pictures/22/01/11/11/02/5012542.jpg );
+}
+.Foto-9 {
+    background-image: url(https://br.web.img3.acsta.net/r_1920_1080/pictures/21/10/18/11/17/2451714.jpg );
+}
+.Foto-10 {
+    background-image: url( https://br.web.img2.acsta.net/r_1920_1080/pictures/20/08/24/15/58/5613860.jpg);
+}
+.Foto-11 {
+    background-image: url(https://br.web.img2.acsta.net/r_1920_1080/pictures/19/10/10/00/14/4960073.jpg );
+}
+.Foto-12 {
+    background-image: url(https://br.web.img2.acsta.net/r_1920_1080/pictures/21/11/10/17/39/5549864.jpg);
+}
+/*Comentários*/
+.coment{
+    display: flex;
+    justify-content: center;
+}
+.coment-container{
+    margin-top: 30px; 
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    width: 80%;
+}
+.block-coment{  
+    display: flex;
+    align-items: flex-start;
+    border: 2px solid lightgrey;
+    border-radius: 15px;
+    background-color: lightgray;
+    margin-bottom: 30px;
+}
+.image-coment{
+    width: 10%;
+}
+.description-coment{
+    width: 85%;
+    border-left: 4px solid #fff;
+    font-family: "Kdam Thmor Pro",sans-serif;
+    margin: 25px 0px;
+   padding-right: 20px;
+}
+#avatar{
+    width: 60%;
+    float: right;
+    margin: 30% 20% 0px 20%;
+}
+.name-coment{
+    padding-left: 15px;
+}
+.coment{
+    padding-left: 15px;
+    margin-top: 20px;
+}
+#h1-comment{
+    font-family: "Kdam Thmor Pro",sans-serif;
+    margin-left: 11%;
+    color:lightgray ;
+    margin-top: 20px;
+}    
+/*Contato*/
+h2{
+    margin: 0px 0px 20px 10px;
+}
+.contain-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.form-contac{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: "Kdam Thmor Pro",sans-serif;
+    width: 60%;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 30px;
+    border-radius: 15px;
+}
+.contact-list{
+    display: flex;
+}
+.button-form{
+    width: 100%;
+    height: 50px;
+    background-color: #DB222D;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+.button-form:hover {
+    background: #fff;
+    color: black;
+}
+.contain-imput{
+    width: 95%;
+    height: 40px;
+}
+input{
+    width:  98%;
+    height: 30px;
+    font-size: 19px;
+}
+i{
+    color: #DB222D;
+    margin-left: 10px;
+
+}
+.contain-imput{
+    width: 100%;
+    height: 40px;
+}
+.contain-area{
+    width: 95%;
+    height: 60px;
+}
+#area-id{
+    width: 98%;
+    display: flex;
+    height: 100%;
+    font-size: 19px;
+    resize: none
+}
+@media (max-width: 768px ){
+    .Footer-navigator {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav{
+        display: none;
+    }
+    #Logo {
+        width: 140px;
+    }
+    #Banner{
+        background-position: 100%;
+        background-image: url(https://wallpapercave.com/wp/wp9429808.jpg);
+    }
+    #Trailler-container { 
+        display: flex;
+        width: 100%;
+        height: 400px;
+        flex-direction: column;
+        margin-top:100px ;
+
+    }
+    .content {
+        display: flex;
+        width: 95%;
+        flex-direction: column;
+        
+    }
+    .trailer{
+        width: 100%;
+    }
+    #Sinops {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .description {
+        width: 100%;
+    }
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .cards-content{
+        grid-template-columns: 1fr;
+        margin-top: 80px;
+    }
+    .Footer-list{
+        margin-right: 30px;
+    }
+    #footer-container{
+        height: 450px;
+        margin-bottom: 50px;
+    }
+    #h1-Fotos{
+        text-align: center;
+        margin-bottom: -50px;
+    }
+    .coment-container{
+        width: 95%;
+    }
+    .block-coment{  
+        padding-left: 10%;
+    }
+    #avatar{
+        margin: 80% 50% 0 50%;
+        width: 100%;
+    }
+    #h1-comment{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
